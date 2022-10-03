@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Variable is created with the declaration as titled "name". The string value assigned to this variable is 'Dane'.
+// We create a condition to run that checks to see if the "name" variable exactly matches the value of 'Mary'.
+// If this condition is met, then we console.log 'Hi, Mary!'. If this condition is not met, we console.log 'How do you do?'.
 //
 
 //CODE
@@ -45,10 +45,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Variable is created with the declaration as titled "secret". 
+// Variable is created with the declaration as titled "code". The numeric value assigned to this variable is 123.
+// We create a condition to run that checks to see if the "code" variable exactly matches the value of 123. 
+// If so, the variable secret equals the value of 'super' and the code amount is multipled by 2.
+// We create another condition to run that sees if the "code" variable is greater than 250. 
+// If so, the variable secret equals the value of 'duper'.
+// We console.log the variable secret to see its value.
 
 //CODE
 /*
@@ -70,10 +73,15 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Variable is created with the declaration as titled "isStudent" with the value set as true.
+// Variable is created with the declaration as titled "age" with the value set as 34.
+// Variable is created with the declaration as titled "zip" with the value set at 55407.
+// We create a condition to run that checks to see if the 'isStudent' matches exactly with true as well as 'zip' being greater than 80000.
+// If so, we console.log 'You're a student on the West Coast!'.
+// Otherwise, we create an else if to see if 'isStudent' matches exactly with false or if 'age' is less than 30. 
+// If these conditions are met, we console.log 'What are your hobbies?'.
+// We add another else if to the condition to see if 'isStudent' exactly matches with true. If this matches exactly, we console.log 'Welcome to Prime!'.
+// We add a final else condition if none of the above conditions are met to console.log 'How about the weather?'.
 
 //CODE
 /*
@@ -130,9 +138,17 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX- should be:
+let colorOne = 'blue';
+let colorTwo = 'red';
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+//FIX- need to add the line of:
+  colorTwo = 'purple';
+underneath line 154.
 
 if (mix === true) {
   colorOne = 'purple';
@@ -145,8 +161,10 @@ if (mix === true) {
 
 /*
 let temp = 40;
+//FIX- let time = 4;
 const time = 4;
 
+//FIX- && not ||
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,6 +177,11 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//FIX- should be:
+if( age >= minAge ){
+  console.log( 'enter');
+}
 
 if(minAge <= age) {
   console.log('no entry');
