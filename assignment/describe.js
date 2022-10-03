@@ -1,5 +1,3 @@
-console.log (js);
-
 // WHAT IS THIS EVEN DOING?
 
 // For questions 1-3, each code block is syntactically and logically correct. Your job is to describe what is happening. 
