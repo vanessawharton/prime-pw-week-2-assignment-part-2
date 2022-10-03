@@ -138,7 +138,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-//FIX- should be:
+//FIX- The values of colorOne and colorTwo are flipped. It should be:
 let colorOne = 'blue';
 let colorTwo = 'red';
 
@@ -161,10 +161,10 @@ if (mix === true) {
 
 /*
 let temp = 40;
-//FIX- let time = 4;
+//FIX- the time variable is not indicated to be a constant. Therefore, it should code as let time = 4;
 const time = 4;
 
-//FIX- && not ||
+//FIX- Should be an 'and' conditional, not an 'or'. In code, replace the && for the ||.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -178,7 +178,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-//FIX- should be:
+//FIX- should flip the age and minAge variables to match the description and remove the 'no entry' console.log line like the below:
 if( age >= minAge ){
   console.log( 'enter');
 }
